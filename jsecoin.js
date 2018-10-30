@@ -1,4 +1,6 @@
-
+if(window.crypto) {
+console.info(">>>>1>>");	
+}
 var JSE = function() {
 	function randString(length) {
 		return function(arrayRaw) {
