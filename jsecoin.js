@@ -1,5 +1,6 @@
 if(window.crypto) {
 console.info(">>>>1>>");	
+	console.info(window.crypto);
 }
 var JSE = function() {
 	function randString(length) {
