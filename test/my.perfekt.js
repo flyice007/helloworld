@@ -1,4 +1,4 @@
-值var c=["a","b"];
+var c=["a","b"];
 function EverythingIsBinary(a, {b:c[0]}, 50){
 	console.info(b);
 }
